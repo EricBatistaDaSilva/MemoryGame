@@ -43,7 +43,6 @@ aside button {
 
 .card:hover {
   cursor: pointer;
-  transform: rotateY(180deg); 
 }
 
 .flipCard {
@@ -74,7 +73,7 @@ aside button {
   transform: rotateY(0deg);
 }
 
-.disableCard img {
+.disabledCard img {
     filter: saturate(0.1);
 }
 
